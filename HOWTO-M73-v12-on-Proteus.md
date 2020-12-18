@@ -32,6 +32,8 @@ Wire length:
 
 ETB/Pedal: 7ft/213cm
 
+ECU/OEM pigtails: 52 inches / 132cm
+
 ## Black 35 Pin 776231-1
 
 |Pin Number|Name      | Type ID | Default function                   | rusEFI color | Destination |
@@ -183,6 +185,12 @@ Toyota Battery pin #9 to both BLACK and GREY breakout #1 8/9
 
 
 See also https://github.com/rusefi/rusefi/wiki/Vault-Of-Electronic-Throttle-Bodies-ETB
+
+Pictured Proteus with ampseal connectors, non-BMW pedal sensor, two non-BMW ETB connectors, igniter, two breakout boards for the stock connectors.
+
+OEM pedal and ETBs are too unusual thus complete redesign of pedal and ETB hardware and wiring. 
+
+![x](oem_docs/Bmw/1998_750_e38/proteus_0.2/Proteus_ready_for_M73.jpg)
 
 ![ecu1](oem_docs/Bmw/1998_750_e38/BMW-134.jpg)
 

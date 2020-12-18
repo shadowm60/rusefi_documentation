@@ -3,11 +3,17 @@
   
 [64 pin](#64)
 
+[72 pin](#72)
+
 [80 pin](#80)
 
 [88 pin](#88)
 
 [121 pin](#121)
+
+[122 pin](#122)
+
+[125 pin](#125)
 
 [134 pin](#134)
 
@@ -237,11 +243,13 @@ See http://faculty.ccp.edu/faculty/dreed/Campingart/jettatech/techset/index.htm
 
 https://www.te.com/usa-en/product-174836-5.html
 
+<a name="72"/>
+
 ## 72 pin
 
-http://www.te.com/usa-en/product-353830-5.html
+http://www.te.com/usa-en/product-353830-5.html [octopart](https://octopart.com/search?q=353830)
 
-http://www.te.com/catalog/pn/en/1123038-2
+http://www.te.com/catalog/pn/en/1123038-2 [octopart](https://octopart.com/search?q=1123038)
 
 ![72 pin connector](Hardware/connectors/72_pin.png)
 
@@ -372,6 +380,8 @@ Currently used by Nissan, Hyundai and Kia. Also Audi, VW and Mini Cooper
 
 2003 VW Passat
 
+<a name="122"/>
+
 [121 pin main page](OEM-121-pin-connectors)
 
 ## 122 pin
@@ -383,6 +393,18 @@ http://www.te.com/catalog/pn/en/8-5353015-1
 
 maybe the most common Aristo 2JZ ECU connector?
 1999 TOYOTA CAMRY 3.0L V6
+89666-20041
+
+<a name="125"/>
+
+## 125 pin
+
+![125 Pin Connector](Hardware/connectors/125_5_render.png)
+
+https://www.te.com/usa-en/product-1318612-1.html
+
+Honda D17 Honda K
+
 
 <a name="134"/>
 

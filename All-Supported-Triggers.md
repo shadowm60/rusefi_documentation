@@ -3,152 +3,194 @@ See also [Trigger](Trigger)
 
 To change your trigger settings, open TunerStudio, Engine->Trigger Configuration
 
-Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
+[Universal](#universal)
 
-May, 2020: Subaru SVX added
+[GM](#gm)
 
-![x](https://rusefi.com/images/triggers/trigger_49.png)
+[Honda](#honda)
 
-April, 2020: Honda K 12+1 added.
+[Mazda](#mazda)
 
-![x](https://rusefi.com/images/triggers/trigger_46.png)
+[Subaru](#subaru)
 
-April, 2020: Renix 44-2-2 added.
+[Jeep & Renix](#jeep)
 
-![x](https://rusefi.com/images/triggers/trigger_44.png) 
+[Miscelanious](#misc)
+
+
+## Universal 36/1
+
+<a name="universal"/>
+
+## 60/2
+
+If you also have a CAM sensor somewhere see [VVT](VVT)
+
+![60/2](Images/triggers/trigger_8.png)
+
+## 36/1
+
+![36/1](Images/triggers/trigger_9.png)
+
+## 36/2
+
+![x](Images/triggers/trigger_48.png)
+
+## Bosch Quick Start
+
+![x](Images/triggers/trigger_47.png)
+
+
+<a name="honda"/>
+
+## Honda K 1/12
+
+![x](Images/triggers/trigger_46.png)
+
+## Honda 1+24
+
+![x](Images/triggers/trigger_21.png)
+
+## Honda CBR600
+
+![Honda CBR600](Images/triggers/trigger_28.png)
+
+<a name="mazda"/>
+
+## Mazda Protege SOHC
+
+![Mazda Protege SOHC](Images/triggers/trigger_7.png)
+
+## Mazda Miata NA
+Also used on some Mitsubishi
+
+![Mazda Miata NA](Images/triggers/trigger_3.png)
+
+## Mazda Miata NB
+
+![Mazda Miata NB1](Images/triggers/trigger_4.png)
+
+## Mazda Protege 1993 DOHC
+
+![Mazda Protege 1993 DOHC](Images/triggers/trigger_15.png)
+
+## Mazda 121/Ford Aspire
+
+![Ford Aspire](Images/triggers/trigger_1.png)
+
+<a name="gm"/>
+
+## GM 7x
+
+![GM 7x](Images/triggers/trigger_5.png)
+
+## GM LS 24x
+
+![GM LS 24](Images/triggers/trigger_27.png)
+
+<a name="jeep"/>
+
+## Jeep 18-2-2-2
+
+![Jeep 18-2-2-2](Images/triggers/trigger_37.png)
+
+## Renix 44/2/2
+
+![x](Images/triggers/trigger_44.png) 
+
+## Renix 66/2/2/2
+
+![x](Images/triggers/trigger_45.png) 
+
+
+<a name="subaru"/>
+
+## Subaru 7+6 tooth
+
+![Subaru 7+6](Images/triggers/trigger_36.png)
+
+## Subaru SVX
+
+![x](Images/triggers/trigger_49.png)
+
 
 ## Universal skipped wheel
 A basic wheel - assumes equally spaced teeth with a number of missing teeth.
 Tuner studio allows up to 500 teeth with 500 missing - functional limits are not tested.
 
+<a name="misc"/>
+
+## Daihatsu
+
+![x](Images/triggers/trigger_6.png)
+
+## Ford ST170
+
+![x](Images/triggers/trigger_42.png)
+
 ## One tooth
 
-![One Tooth](Images/trigger_18.png)
+![One Tooth](Images/triggers/trigger_18.png)
 
 ## 36/2/2
 
-![36/2/2](Images/trigger_23.png)
+![36/2/2](Images/triggers/trigger_23.png)
 
 ## Dodge Neon 1995
 
-![Dodge Neon 1995](Images/trigger_2.png)
+![Dodge Neon 1995](Images/triggers/trigger_2.png)
 
 ## Dodge Neon 1995 only crankshaft sensor
 
-![Dodge Neon 1995 crank only](Images/trigger_39.png)
+![Dodge Neon 1995 crank only](Images/triggers/trigger_39.png)
+
+## Dodge Hemi and SRT4
+
+![x](Images/triggers/trigger_30.png)
+
 
 ## Dodge Ram
 
-![Dodge Ram](Images/trigger_19.png)
+![Dodge Ram](Images/triggers/trigger_19.png)
 
 ## Dodge Neon 2003
 Chrysler NGC 4 cylinder
 
-![Dodge Neon 2003](Images/trigger_14.png)
+![Dodge Neon 2003](Images/triggers/trigger_14.png)
 
 ## Dodge Stratus
 Chrysler NGC 6 cylinder
 
-![Dodge Stratus](Images/trigger_22.png)
-
-## Ford Aspire
-
-![Ford Aspire](Images/trigger_1.png)
-
-## GM 7x
-
-![GM 7x](Images/trigger_5.png)
-
-## Mazda Protege SOHC
-
-![Mazda Protege SOHC](Images/trigger_7.png)
-
-## Mazda Miata NA
-
-![Mazda Miata NA](Images/trigger_3.png)
-
-## Mazda Miata NB1
-
-![Mazda Miata NB1](Images/trigger_4.png)
-
-## Mazda Miata NB2 VVT
-
-![Mazda Miata NB2 VVT](Images/trigger_33.png)
-
-## Mazda Protege 1993 DOHC
-
-![Mazda Protege 1993 DOHC](Images/trigger_15.png)
-
-## Mitsubishi
-
-![Mitsubishi](Images/trigger_11.png)
+![Dodge Stratus](Images/triggers/trigger_22.png)
 
 ## Nissan
 
 360 slot trigger not ready yet, no test vehicles :(
 
-![Nissan](Images/trigger_24.png)
-
-## Universal 36/1
-
-![36/1](Images/trigger_9.png)
-
-## Universal True 60/2
-
-If you also have a CAM sensor somewhere see [VVT](VVT)
-
-![60/2](Images/trigger_8.png)
+![Nissan](Images/triggers/trigger_24.png)
 
 ## 1 + 60/2
 
 Please use this one only if your CAM sensor position matches this picture exactly. For a CAM which does not match this picture exactly, see above for universal 60/2 with cam input.
 
-![1+60/2](Images/trigger_17.png)
+![1+60/2](Images/triggers/trigger_17.png)
 
 ## VW 60/2
 VW special understanding of 60/2 with a wide tooth instead of of just missing tooth.
 
 See also [Universal True 60/2](All-Supported-Triggers#universal-true-602)
 
-![VW 60/2](Images/trigger_20.png)
+![VW 60/2](Images/triggers/trigger_20.png)
 
 ## Toyota 2JZ
 
 3/34 version
 
-![Toyota 2JZ 3/34](Images/trigger_25.png)
+![Toyota 2JZ 3/34](Images/triggers/trigger_25.png)
 
 1/12 version
 
-![Toyota 2JZ 1/12](Images/trigger_29.png)
-
-## GM LS 24 tooth
-
-![GM LS 24](Images/trigger_27.png)
-
-## Subaru 7+6 tooth
-
-![Subaru 7+6](Images/trigger_36.png)
-
-## Jeep 18-2-2-2
-
-![Jeep 18-2-2-2](Images/trigger_37.png)
-
-## Honda 1+24
-
-![Honda 1+24](Images/trigger_21.png)
-
-## Honda 4+24
-
-![Honda 4+24](Images/trigger_12.png)
-
-## Honda 1+4+24
-
-![Honda 1+4+24](Images/trigger_13.png)
-
-## Honda CBR600
-
-![Honda CBR600](Images/trigger_28.png)
+![Toyota 2JZ 1/12](Images/triggers/trigger_29.png)
 
 ## Unknown trigger type
 
@@ -185,3 +227,13 @@ While cranking, you can set angle-based ignition instead of timing map & dwell b
 
 
 See 'trigger decoding' in http://rusefi.com/docs/html/
+
+May, 2020: Subaru SVX added
+
+April, 2020: Honda K 12+1 added.
+
+April, 2020: Renix 44-2-2 added.
+
+Dev note: unit_tests executable produces triggers.txt file - gen_trigger_images.bat reads triggers.txt and produces these .png files. TODO: automate this further?
+
+

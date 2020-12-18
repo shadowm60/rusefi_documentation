@@ -19,18 +19,18 @@ Feature|Supported?
 -------|----------
 Batch Injection|✓
 Sequential Injection up to 12 cylinders|✓
-[Direct Injection](GDI-status)|✗
 Wasted Ignition|✓
 Sequential Ignition up to 12 cylinders|✓
-Rotary Engines|✗
 Closed Loop Fueling|✓
 Electronic Throttle Body|✓
+Boost Control|✓
+[Launch Control](Launch-Control)|✓
+[Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
 [Knock Sensing](knock-sensing)|✗
-Boost Control|✗
-[Launch Control](Launch-Control)|✗
 Flat Shifting|✗
 Automatic Transmission Control|✗
-[Acceleration enrichment - wall wetting/fuel trip/tau factor](wall_wetting)|✓
+Rotary Engines|✗
+[Direct Injection](GDI-status)|✗
 
 
 And many more! See [rusEFI-project](rusEFI-project) for more details.
