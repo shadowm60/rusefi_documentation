@@ -1,15 +1,19 @@
-# microRusEfi User Documentation
+# microRusEFI User Documentation
 
-[rusEfi Hardware](Hardware-microRusEfi)
+[Download release firmware](https://github.com/rusefi/rusefi/releases/latest/download/rusefi_bundle_mre_f4.zip)
 
-[rusEfi wiring](Hardware-microRusEfi_wiring)
+[Download nightly firmware](https://rusefi.com/build_server/rusefi_bundle_mre_f4.zip)
 
-[HOWTO program rusEfi using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
+[rusEFI Hardware](Hardware-microRusEfi)
+
+[rusEFI wiring](Hardware-microRusEfi-wiring)
+
+[HOWTO program rusEFI using DFU](https://www.youtube.com/watch?v=VdvXYgv_acg)
 
 [See also Kit Instructions](Hardware-microRusEfi_kit_instructions)
 
 
-## HOWTO update microRusEfi Firmware
+## HOWTO update microRusEFI Firmware
 
 The best way to update microRusEfi firmware is using rusEfi console "Auto DFU" mode. 
 In AutoDFU a few things happen once you click the "Update Firmware" button.
@@ -18,9 +22,9 @@ In AutoDFU a few things happen once you click the "Update Firmware" button.
 
 ![img](Support/AutoDFU_precondition.png)
 
-1) rusEfi console finds your microRusEfi device serial port and sends it a command to reboot into DFU mode.
+1) rusEfi console finds your microRusEFI device serial port and sends it a command to reboot into DFU mode.
 
-It is expected that microRusEfi would stop blinking the blue light and reboot. It is expected that Virtual COM Port
+It is expected that microRusEFI would stop blinking the blue light and reboot. It is expected that Virtual COM Port
 would disappear from Device Manager and "STM Device in DFU Mode" device would appear in "Universal Serial Bus controllers" category.
 
 ![img](Support/stm_device_in_dfu_mode.png)

@@ -288,6 +288,10 @@ Nissan
 
 ## 80 pin
 
+LS1 LS6
+
+## 80 pin
+
 52+28
 
 http://www.te.com/catalog/pn/en/8-1393476-0
@@ -405,6 +409,12 @@ https://www.te.com/usa-en/product-1318612-1.html
 
 Honda D17 Honda K
 
+## 128 pin
+Mercedes M111 https://www.ebay.com/itm/333791544427
+
+A0235459732 
+A0225452732
+A0275457932 
 
 <a name="134"/>
 
